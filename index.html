@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css links-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+   <!--font links-->
+  <link rel="stylesheet" href="Font/Proba Pro/Mint Type - Proba Pro Italic.otf">
+  <link rel="stylesheet" href="Font/Proba Pro/Mint Type - Proba Pro Regular.otf">
+   <!--icon link--> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+</head>
+<body>
+  <!--navbars-->
+  <div class="before-head">
+    <h3>Ukraine, Lviv</h3>
+     <div>
+         <h4>+38 093 984 20 48, +38 096 852 61 26</h4>
+         <nav>
+           <ul class="sidebar">
+            <li onclick=hideSidebar() class="exit"><i class="fa-solid fa-x"></i></li>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">TELEGRAM</a></li>
+            <li><a href="#">WHATSAPP</a></li>
+           </ul>
+          </nav>
+    </div>
+    <div class="menu-button" onclick=showSidebar()><i class="fa-solid fa-bars"></i></div>
+  </div>
+  <div class="header">
+    <div class="logo">
+      <h1>ostapw<span>kit</span></h1>
+    </div>
+    <div class="navbar">
+      <div class="icon-section">
+        <div class="icon">
+          <div class="one">
+          <i class="fa-regular fa-square"></i>
+          <i class="fa-solid fa-square rota"></i>
+          </div>
+          <div>
+          <i class="fa-regular fa-square"></i>
+          <i class="fa-regular fa-square"></i>
+          </div>
+        </div>
+        <h3>Каталог</h3>
+      </div>
+      <nav>
+        <ul class="sidebar1">
+          <li onclick=hideSidebar1() class="exit1"><i class="fa-solid fa-x"></i></li>
+          <li><a href="#"><h3>Про компанію</h3></a></li>
+          <li><a href="#"><h3>Переваги</h3></a></li>
+          <li><a href="#"><h3>Новини</h3></a></li>
+          <li><a href="#"><h3>Статті</h3></a></li>
+          <li><a href="#"><h3>Контакти</h3></a></li>
+        </ul>
+      </nav>
+      <div class="menu-button1" onclick=showSidebar1()><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+  <!--header-->
+  <div class="main-head">
+    <div class="content">
+       <h4 class="num-bg">01</h4>
+       <p class="paragh1">Це професійний макет <span>для вашого сайту.</span></p>
+       <p class="paragh2">Це професійний макет для вашого сайту.<br>
+        Тут ви можете коротко описати, що пропонує ваша компанія.</p>
+       <div class="button">
+         <a class="btn-1" href="#">Детальніше</a>
+         <a class="btn-2" href="#">Замовити консультацію</a>
+       </div>
+    </div>   
+    <div class="buttons">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+          <button></button>
+    </div>
+  </div>
+  <!--content page-->
+  <main>
+    <section class="section1">
+      <h2>Ми пропонуємо найкраще</h2>
+      <hr>
+      <div class="section-content">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section1.1.jfif" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h3 class="card-title ">Назва блоку,чи послуги</h3>
+                <a href="#" class="btn btn-color">Смотреть каталог</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section1.2.jfif" class= "card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Назва блоку,чи послуги</h3>
+                <a href="#" class="btn btn-color">Смотреть каталог</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section1.3.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Назва блоку,чи послуги</h3>
+                <a href="#" class="btn btn-color">Смотреть каталог</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section1.4.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Назва блоку,чи послуги</h3>
+                <a href="#" class="btn btn-color">Смотреть каталог</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section2" >
+      <h2>Чому потрібно вибрати саме нас?</h2>
+      <hr>
+      <h4 class="sec-paragh">Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+      <div class="section2-content">
+         <div class="section-part">
+          <i class="fa-solid fa-truck"></i>
+          <div>
+            <h3>Доставка до двери</h3>
+            <h4>Бесплатно доставляем заказы
+              от 3 000   по всей стране.</h4>
+          </div>
+         </div>
+         <div class="section-part">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <div>
+            <h3>Лояльность</h3>
+            <h4>Добавим подарок в каждый заказ от 1500 ₽</h4>
+          </div>
+         </div>
+         <div class="section-part">
+            <i class="fa-regular fa-credit-card icon-2"></i>
+          <div>
+            <h3>Удобная оплата</h3>
+            <h4>Картой или наличными</h4>
+          </div>
+         </div>
+      </div>
+    </section>
+    <section class="section3">
+       <h2>Етапи роботи з нами</h2>
+       <hr>
+        <h4 class="sec-paragh">Усього 3 кроки для нашої співпраці</h4>
+        <div class="section3-content">
+          <div class="section3-part">
+            <h3 class="Number">1</h3>
+            <h3>Заповніть заявку на сайті</h3>
+            <button class="btn-Num"><h4>Відправити заявку</h4></button>
+          </div>
+          <div class="section3-part">
+            <h3 class="Number">2</h3>
+            <h3>Менеджер надішле вам документи</h3>
+            <h4 class="sec-3">Це відбувається протягом 1-2 годин після заявки</h4>
+          </div>
+          <div class="section3-part">
+            <h3 class="Number">3</h3>
+            <h3>Підписуємо договір</h3>
+            <h4 class="sec-3">Ви підписуєте договір і надсилаєте його нам поштою</h4>
+          </div>
+          <i class="fa-solid fa-chevron-right sec-ic1"></i>
+          <i class="fa-solid fa-chevron-right sec-ic2"></i>
+        </div>
+    </section>
+    <section class="section4">
+      <h2>Заголовок</h2>
+      <hr>
+      <h4>Вже давно відомо, що читабельний зміст буде заважати зосередит.</h4>
+      <div class="sec4-nav">
+        <nav>
+          <ul>
+            <li class="sec4-active">Новинки</li>
+            <li>Акції</li>
+            <li>Популярні</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="section4-content">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section4.1.jfif" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h6 class="card-title">КАТЕГОРІЯ</h6>
+                <h4>Вже давно відомо, що читабельний зміст буде заважати зосередит...</h4>
+                <h3>От 7500  ₴</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section4.2.jfif" class= "card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">КАТЕГОРІЯ</h6>
+                <h4>Вже давно відомо, що читабельний зміст буде заважати зосередит...</h4>
+                <h3>От 7500  ₴</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section4.3.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">КАТЕГОРІЯ</h6>
+                <h4>Вже давно відомо, що читабельний зміст буде заважати зосередит...</h4>
+                <h3>От 7500  ₴</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="images/section4.4.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">КАТЕГОРІЯ</h6>
+                <h4>Вже давно відомо, що читабельний зміст буде заважати зосередит...</h4>
+                <h3>От 7500  ₴</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>Смотреть все</button>
+    </section>
+    <section class="section5">
+      <div class="sec5-img">
+        <img src="images/section51.jfif" alt="">
+      </div>
+      <div class="sec5-form">
+        <h2>Зворотній звязок</h2>
+        <hr>
+        <h4>Введіть номер телефону і ми передзвонимо Вам у робочий час 
+          (пн-пт 06:00-18:00)</h4>
+        <div class="form">
+          <form action="">
+            <div class="name">
+            <label for="name">Ваше імя</label><br>
+            <input type="text" id="name" name="name" placeholder="Остап Штай" >
+            <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="Email">
+            <label for="Email">E-mail</label><br>
+            <input type="email" id="Email" name="Email" placeholder="procombiz@gmail.com">
+            <i class="fa-solid fa-xmark"></i>
+            </div>
+            <input type="tel" id="phone" name="phone" placeholder="+380 ХХ ХХХ ХХ ХХ" maxlength="13" >
+            <input type="checkbox" id="text1" name="text1" required >
+            <label for="text1" class="text1">Я підтверджую, що ознайомлений із Політикою обробки персональних даних та приймаю умови Політики.</label>
+            <input type="button" id="fbutt" name="fbutt" value="Замовити дзвінок">
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section6">
+      <h2>Поширені запитання</h2>
+      <hr>
+      <h4>Тут ви знайдете відповіді на найчастіші запитання</h4>
+      <div class="section6-cotent">
+        <div class="sec6-part">
+          <h3>Основні тенденції розвитку ринку?</h3>
+          <h4>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+          <i id="flow1" class="fa-solid fa-chevron-down sec6"></i>
+        </div>
+        <div class="sec6-part">
+          <h3>Основні тенденції розвитку ринку?</h3>
+          <h4>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+          <i  class="fa-solid fa-chevron-down sec6"></i>
+        </div>
+        <div class="sec6-part">
+          <h3>Основні тенденції розвитку ринку?</h3>
+          <h4>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+          <i class="fa-solid fa-chevron-down sec6"></i>
+        </div>
+        <div class="sec6-part">
+          <h3>Основні тенденції розвитку ринку?</h3>
+          <h4>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+          <i class="fa-solid fa-chevron-down sec6"></i>
+        </div>
+        <div class="sec6-part">
+          <h3>Основні тенденції розвитку ринку?</h3>
+          <h4>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+          <i class="fa-solid fa-chevron-down sec6"></i>
+        </div>
+        <div class="sec6-part">
+          <h3>Основні тенденції розвитку ринку?</h3>
+          <h4>Мета нашої компанії - скоротити витрати, збільшити обороти та прибутковість вашого бізнесу. Для цього ми вивчаємо бізнес-процеси компанії, аналізуємо їх та шукаємо вузькі місця. Потім пропонуємо рішення, яке забезпечить економічний чи організаційний ефект.</h4>
+          <i class="fa-solid fa-chevron-down sec6"></i>
+        </div>
+      </div>
+      <button>Смотреть все</button>
+    </section>
+    <section class="section7">
+      <div class="sec7-img">
+        <img src="images/section7.jfif" alt="">
+      </div>
+      <div class="section7-content">
+        <h2>Про компанію</h2>
+        <hr>
+        <div class="sec7-paragh">
+          <p>Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+          <p>Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+          <p>Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</p>
+        </div>
+      </div>
+    </section>
+    <section class="section8">
+      <div class="section8-content">
+        <div class="sec8-part  part1">
+         <img src="images/section8.png" alt="">
+         <h4>Років успішної роботи<br>
+          та співпраці</h4>
+        </div>
+        <div class="sec8-part part2">
+          <img src="images/section8.png" alt="">
+          <h4>Років успішної роботи<br>
+           та співпраці</h4>
+         </div>
+         <div class="sec8-part">
+          <img src="images/section8.png" alt="">
+          <h4>Років успішної роботи<br>
+           та співпраці</h4>
+         </div>
+      </div>
+    </section>
+  </main>
+  <!--carousels-->
+  <div class="carousels">
+      <h2>Маємо 125+ задоволених клієнтів<span>
+        та виконаних проектів</span></h2>
+        <hr>
+      <h4>Реальні відгуки від наших клієнтів</h4> 
+      <div class="cards-carousels">
+        <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel">
+            <li class="card ">
+              <h4 class="date-card">12/01/2023</h4>
+              <div class="card-title">Відгук від Володимира К.</div>
+              <div>Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</div>
+            
+            </li>
+            <li class="card ">
+              <h4 class="date-card">12/01/2023</h4>
+              <div class="card-title">Відгук від Володимира К.</div>
+              <div>Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</div>
+              
+            </li>
+            <li class="card ">
+              <h4 class="date-card">12/01/2023</h4>
+              <div class="card-title">Відгук від Володимира К.</div>
+              <div>Давно з'ясовано, що при оцінці дизайну та композиції текст, що читається, заважає зосередитися. Lorem Ipsum використовують тому, що той забезпечує більш менш стандартне заповнення шаблону</div>
+              
+            </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+         </div>
+      </div>
+      
+      <button>Смотреть все</button>
+
+  </div>
+  <!--footer-->
+  <footer>
+    <div class="footer1">
+      <h2>Зв'яжіться з нами</h2>
+      <hr>
+      <h4>Зручним для вас способом</h4>
+      <div class="footer1-info">
+        <div>
+          <div class="foot-Num">
+            <h3>1</h3>
+          </div>
+          <div class="foot-text">
+            <h4 class="title">Адреса</h4>
+            <h4>Країна, місто,<br>
+              Назва вулиці, 32</h4>
+          </div>
+        </div>
+        <div>
+          <div class="foot-Num">
+            <h3>2</h3>
+          </div>
+          <div class="foot-text">
+            <h4 class="title">Телефони</h4>
+            <h4>+38 093 984 20 48 <br>
+              +38 096 852 61 26</h4>
+          </div>
+        </div>
+        <div>
+          <div class="foot-Num">
+            <h3>3</h3>
+          </div>
+          <div class="foot-text">
+            <h4 class="title">Час работи</h4>
+            <h4>пн-пт 08:00-19:00 <br>
+              сб-нд Вихідні</h4>
+          </div>
+        </div>
+        <div>
+          <div class="foot-Num">
+            <h3>4</h3>
+          </div>
+          <div class="foot-text">
+            <h4 class="title">Інтрернет пошта</h4>
+            <h4>procombiz@gmail.com</h4>
+          </div>
+        </div>
+      </div>
+      <div class="foot1-img">
+        <i class="fa-solid fa-location-dot"></i>
+        <img src="images/foot1.png" alt="">
+      </div>
+    </div>
+    <div class="footer2">
+     <div>
+      <div class="footer2-part1">
+          <div class="foot2-txt">
+            <h1>ostapwkit</h1>
+            <h3>UI/UX design</h3>
+          </div>
+          <div class="foot2-info">
+            <div>
+              <h3>Про компанію<br>
+                Каталог<br>
+                Питання та відповіді<br>
+                Новини</h3>
+            </div>
+            <div>
+              <h3>Статті та огляди<br>
+                Контакти</h3>
+            </div>
+            <div>
+              <h3>Статті та огляди<br>
+                Контакти</h3>
+              <h3>procombiz@gmail.com</h3>
+            </div>
+            <div>
+              <h3>+38 093 984 20 48 <br>
+                +38 096 852 61 26</h3>
+            </div>
+          </div>
+      </div>
+      <hr>
+      <div class="footer2-part2">
+         <h3>© 2011–2023</h3>
+         <h3>Правила сайту</h3>
+         <h3>Shtay O.</h3>
+         <div>
+          <i class="fa-brands fa-cc-visa"></i>
+          <img src="images/Group.png" alt="">
+         </div>
+      </div>
+     </div>
+    </div>
+  </footer>
+  <!--js links-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1356,18 +1356,18 @@ footer .footer2{
     }
     /* carousel*/
     .carousel .card{
-        height: 50vh;
-        width: 80%;
+        height: 55vh;
+        width: 60%;
     }
     .wrapper .carousel{
         grid-auto-columns: 100%;
     }
     .wrapper i:first-child{
-        left: 9%; 
+        left: 55px; 
         z-index: 1;
     }
     .wrapper i:last-child{
-        right: 9%;
+        right: 55px;
     }
     /*footer1*/
     footer{
@@ -1459,4 +1459,14 @@ footer .footer2{
         flex-direction: column;
     }
 
+}
+
+@media only screen and (max-width: 350px){
+    .wrapper i:first-child{
+        left: 80px; 
+        z-index: 1;
+    }
+    .wrapper i:last-child{
+        right: 80px;
+    }
 }
